@@ -1,0 +1,58 @@
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="BEMFSetup" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="BEMFSetup">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Value" type="xs:double" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <BEMFSetup>
+    <Name>VS</Name>
+    <Value>12</Value>
+  </BEMFSetup>
+  <BEMFSetup>
+    <Name>IH</Name>
+    <Value>2.5</Value>
+  </BEMFSetup>
+  <BEMFSetup>
+    <Name>IA</Name>
+    <Value>2.5</Value>
+  </BEMFSetup>
+  <BEMFSetup>
+    <Name>ID</Name>
+    <Value>2.5</Value>
+  </BEMFSetup>
+  <BEMFSetup>
+    <Name>IR</Name>
+    <Value>2.5</Value>
+  </BEMFSetup>
+  <BEMFSetup>
+    <Name>tSpd</Name>
+    <Value>200</Value>
+  </BEMFSetup>
+  <BEMFSetup>
+    <Name>ke</Name>
+    <Value>0.035</Value>
+  </BEMFSetup>
+  <BEMFSetup>
+    <Name>Rph</Name>
+    <Value>1</Value>
+  </BEMFSetup>
+  <BEMFSetup>
+    <Name>Lph</Name>
+    <Value>2.2</Value>
+  </BEMFSetup>
+  <BEMFSetup>
+    <Name>IRonly</Name>
+    <Value>1</Value>
+  </BEMFSetup>
+</NewDataSet>
